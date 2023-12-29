@@ -1,5 +1,6 @@
 <template>
-  <button class="btn">add user</button>
+  <!-- <button class="btn">add user</button> -->
+  <router-view></router-view>
 </template>
 
 <script lang="ts" setup>
