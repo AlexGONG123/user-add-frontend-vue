@@ -1,7 +1,60 @@
-# Vue 3 + Vite
+# One Year of Sunshine Frontend Application
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Access URL
 
-## Recommended IDE Setup
+Visit the application: [One Year of Sunshine](https://yinianyangguang.top/#/login)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Administrator Login Information
+
+1. **Username**: `admin`  
+   **Password**: `admin`
+
+2. **Username**: `aaa`  
+   **Password**: `aaa`
+
+## Local Development Environment
+
+- **Node.js**: v17.9.1
+- **npm**: v8.11.0
+
+## Installation and Running
+
+Clone the project locally:
+
+```bash
+git clone [Your Project's Git Repository URL]
+cd [Your Project Directory]
+
+Install dependencies:
+
+\`\`\`bash
+npm install
+\`\`\`
+
+Run the project locally:
+
+\`\`\`bash
+npm run dev
+\`\`\`
+
+Build for production:
+
+\`\`\`bash
+npm run build
+\`\`\`
+
+## Project Structure
+
+- /api - Contains Axios request functions.
+- /composables - Houses utility functions, such as cookie retrieval and notification triggering.
+- /pages - Stores page components.
+- /router - Defines Vue routing.
+- /store - Holds Vuex's createStore for managing global data.
+- axios.js - Creates an Axios instance and sets interceptors.
+- main.js - The main entry file of the application.
+- permission.js - Sets up navigation guards for routing.
+
+## Notes
+
+- Ensure that the correct versions of Node.js and npm are installed in your local development environment.
+- Before building for production, make sure all functionalities have been tested and verified.
