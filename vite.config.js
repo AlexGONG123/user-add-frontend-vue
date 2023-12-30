@@ -12,4 +12,16 @@ export default defineConfig({
     }
   },
   plugins: [vue(),,WindiCSS()],
+  server: {
+    proxy:{
+      '/api': {
+        target: process.env.VITE_API_BASE_URL,
+        secure: false,
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      }
+    }
+  }
 })
+
+
