@@ -24,24 +24,24 @@ Clone the project locally:
 ```bash
 git clone [Your Project's Git Repository URL]
 cd [Your Project Directory]
-
+```
 Install dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 Run the project locally:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Build for production:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ## Project Structure
 
